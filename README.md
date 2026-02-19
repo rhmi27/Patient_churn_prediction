@@ -122,3 +122,32 @@ The insights derived from this project have significant practical implications f
 -  **Resource Optimization**: By understanding the primary churn drivers, healthcare providers can strategically allocate resources. Instead of broad-stroke initiatives, efforts can be focused on improving specific areas that have the most impact on retention, such as enhancing satisfaction in identified areas or addressing common billing concerns.
 -  **Proactive Engagement**: The project underscores the importance of proactive engagement. Early detection of dissatisfaction (e.g., through satisfaction surveys, monitoring appointment attendance) allows for timely interventions before a patient decides to churn.
 -  **Strategic Planning**: The identified key churn drivers can inform long-term strategic planning, leading to systemic improvements in patient experience, operational efficiency, and financial transparency to foster loyalty and reduce churn rates.
+
+
+
+# How to Run the Project
+1.  **Prerequisites**:
+    *   Python 3.8+ (or your specific version, e.g., Python 3.10)
+    *   Git
+
+2.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/patient_churn_prediction.git
+    cd patient_churn_prediction
+    ```
+
+3.  **Set up a virtual environment** (recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `.\venv\Scripts\activate`
+    ```
+
+4.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5.  **Run the Jupyter Notebook**:
+    ```bash
+    jupyter notebook notebooks/patient_churn_analysis.ipynb
+    ```
